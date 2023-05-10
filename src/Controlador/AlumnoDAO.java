@@ -1,9 +1,9 @@
-package controlador;
+package Controlador;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import conexionBD.ConexionBD;
+import ConexionBD.ConexionBD;
 import modelo.Alumno;
 public class AlumnoDAO {
     ConexionBD conexion;
